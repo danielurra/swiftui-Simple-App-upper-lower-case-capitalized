@@ -1,7 +1,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    //    @State var userText = ""
     @State var userText = "Friends will be friends"
     @State var capMode = 1
     
@@ -68,11 +67,3 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
-
-//if capMode == 1 {
-//    Text(userText.uppercased()) // ALL CAPS capMode 1
-//    // Text(userText.capitalized) // Fisrt Letter capMode 2
-//    // Text(userText.lowercased()) // all lowercase capMode 3
-//        .font(.largeTitle)
-//        .foregroundStyle(.blue)
-//}
