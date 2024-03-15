@@ -81,4 +81,6 @@ struct ContentView: View {
 ## Copy functionality
 Additionaly the user can copy the converted text to the phone's clipboard<br>
 to have it available to be used on another App e.g. Safari browser.<br>
+![copy-functionality](https://github.com/danielurra/swiftui-Simple-App-upper-lower-case-capitalized/assets/51704179/df4b48a2-1c80-4dfa-a1b0-e5a1fc94048c)<br>
+
 
