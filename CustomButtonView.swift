@@ -1,0 +1,30 @@
+//
+//  CustomButtonView.swift
+//  capitalizationapp
+//
+//  Created by Eusebio Taba on 3/11/24.
+//
+
+import SwiftUI
+
+struct CustomButtonView: View {
+    
+    var titleDanny: String
+    var bkgndColorDanny: Color
+    
+    var body: some View {
+        Text(titleDanny)
+            .font(.body)
+            .bold()
+            .padding(10)
+            .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+            .background(bkgndColorDanny)
+            .foregroundStyle(.white)
+            .clipShape(RoundedRectangle(cornerRadius: 15))
+    }
+}
+
+#Preview {
+    CustomButtonView(titleDanny: "Tap Me", bkgndColorDanny: .blue)
+}
+
