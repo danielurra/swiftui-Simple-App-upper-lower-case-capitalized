@@ -11,7 +11,6 @@ buttons to conver the text to:
 import SwiftUI
 
 struct ContentView: View {
-    //    @State var userText = ""
     @State var userText = "Friends will be friends"
     @State var capMode = 1
     
