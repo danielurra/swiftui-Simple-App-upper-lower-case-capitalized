@@ -17,7 +17,7 @@ struct CustomButtonView: View {
             .font(.body)
             .bold()
             .padding(10)
-            .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+            .frame(maxWidth: .infinity)
             .background(bkgndColorDanny)
             .foregroundStyle(.white)
             .clipShape(RoundedRectangle(cornerRadius: 15))
