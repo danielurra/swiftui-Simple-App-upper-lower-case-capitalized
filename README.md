@@ -4,6 +4,7 @@ buttons to conver the text to:
 * Uppercase
 * Capitalized
 * Lowercase
+  
 ![upper_lower-case-capitalized](https://github.com/danielurra/swiftui-Simple-App-upper-lower-case-capitalized/assets/51704179/4a3f8404-2ebc-4bec-bc07-00d4632f380c)<br>
 ## Copy functionality
 Additionaly the user can copy the converted text to the phone's clipboard<br>
